@@ -1,14 +1,15 @@
 {
-  "full_name": "",
-  "email": "",
+  "project_name": "Name of your Pytorch package",
+  "author_full_name": "",
+  "author_email": "",
   "github_username": "",
-  "project_name": "Pytorch Package",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "project_short_description": "",
   "pypi_username": "{{ cookiecutter.github_username }}",
   "version": "0.0.1",
   "create_author_file": "y",
-  "docker_use_proxy": "n",
-  "use_pypi_deployment_with_travis": "y",
-  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+  "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "package_url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.package_name }}"
+
 }
