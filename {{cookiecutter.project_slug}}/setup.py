@@ -14,7 +14,8 @@ def read(filename):
 
 
 requirements = [
-    # use environment.yml
+    'numpy',
+    'torch',
 ]
 
 
@@ -27,12 +28,8 @@ setup(
     description="{{ cookiecutter.project_short_description }}",
     long_description=read("README.md"),
     packages=find_packages(exclude=("tests",)),
-    entry_points={
-        "console_scripts": [
-            "{{ cookiecutter.package_name }}={{ cookiecutter.package_name }}.cli:cli"
-        ]
-    },
     install_requires=requirements,
+    include_package_data=True,
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.6"
