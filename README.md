@@ -2,7 +2,7 @@
 
 ```
 pip install cookiecutter
-cookiecutter https://github.com/ml-illustrated/cookiecutter-pytorch
+cookiecutter https://github.com/ml-illustrated/cookiecutter-pytorch-basic
 # fill in your project info
 
 cd <name_of_your_project>
