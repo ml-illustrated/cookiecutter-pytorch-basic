@@ -10,5 +10,5 @@ cd <name_of_your_project>
 # ...
 
 # build your python package
-python setupy.py bdist_wheel
+python setup.py bdist_wheel
 ```
